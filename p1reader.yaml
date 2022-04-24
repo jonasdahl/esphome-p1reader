@@ -54,6 +54,19 @@ output:
   #   platform: gpio
   #   pin: D1
 
+text_sensor:
+  - platform: wifi_info
+    ip_address:
+      name: IP Address
+    ssid:
+      name: Connected SSID
+    bssid:
+      name: Connected BSSID
+    mac_address:
+      name: Mac Address
+    scan_results:
+      name: Scan Results
+
 sensor:
   - platform: wifi_signal
     name: "WiFi Signal"
