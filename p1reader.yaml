@@ -67,6 +67,10 @@ text_sensor:
     scan_results:
       name: Scan Results
 
+button:
+  - platform: restart
+    name: "Restart device"
+
 sensor:
   - platform: uptime
     name: Uptime
