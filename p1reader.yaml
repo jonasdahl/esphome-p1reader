@@ -31,11 +31,16 @@ api:
 ota:
   # password: !secret ota_password
 
+# uart:
+#   id: uart_bus
+#   rx_pin:
+#     number: RX
+#     inverted: true
+#   baud_rate: 115200
 uart:
   id: uart_bus
-  rx_pin:
-    number: RX
-    inverted: true
+  tx_pin: TX
+  rx_pin: RX
   baud_rate: 115200
 
 light:
